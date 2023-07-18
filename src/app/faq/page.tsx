@@ -124,9 +124,6 @@ const FAQ = () => {
               <li>WC</li>
               <li>Local para Acampar Gratuitamente</li>
               <li>Café/Snack-Bar</li>
-              <li>Tenda e Saco</li>
-              <li>Café/Snack-Bar</li>
-              <li>Café/Snack-Bar</li>
             </ul>
             <p className="text-[#FDFAFA] font-bold text-lg pt-2 px-6">
               Não Disponível
