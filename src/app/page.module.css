@@ -12,10 +12,9 @@
 
   .bolDiv {
     cursor: pointer;
-    height: 100px;
-    width: 400px;
+    height: 130px;
+    width: 100%;
     position: absolute;
-    bottom: 100px;
-    left: 280px;
+    bottom: 70px;
   }
 }
