@@ -5,6 +5,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useEffect } from "react";
+import Head from "next/head";
 
 export default function Home() {
   useEffect(() => {
@@ -22,11 +23,16 @@ export default function Home() {
   };
 
   return (
-    <div className={styles.container}>
-      <Navbar />
-      <main id="cambrafest" className={` ${styles.blur}`} />
-      <div onClick={handleBOLClick} className={styles.bolDiv} />
-      <Footer />
-    </div>
+    <>
+      <Head>
+        <title>Cambrafest - Are You Ready?</title>
+      </Head>
+      <div className={styles.container}>
+        <Navbar />
+        <main id="cambrafest" className={` ${styles.blur}`} />
+        <div onClick={handleBOLClick} className={styles.bolDiv} />
+        <Footer />
+      </div>
+    </>
   );
 }
