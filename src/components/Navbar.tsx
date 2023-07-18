@@ -20,8 +20,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full bg-transparent">
-      <div className="justify-center bg-transparent  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+    <nav className="w-full lg:bg-[#362E59] bg-[#131E50]">
+      <div className="justify-center lg:bg-[#362E59] bg-[#131E50]  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <div className="md:hidden">

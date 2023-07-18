@@ -18,6 +18,12 @@ body {
   background: #362e59;
 }
 
+@media (max-width: 1023px) {
+  body {
+    background: #131e50;
+  }
+}
+
 .no-scrollbar::-webkit-scrollbar,
 body::-webkit-scrollbar {
   display: none;

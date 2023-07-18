@@ -18,3 +18,13 @@
     bottom: 70px;
   }
 }
+
+@media (max-width: 1023px) {
+  .blur {
+    height: 66vh;
+    background-image: url("/board-sm.jpeg");
+    background-size: contain;
+    background-repeat: repeat-x;
+    box-shadow: 0 0 10px 16px #131e50 inset;
+  }
+}

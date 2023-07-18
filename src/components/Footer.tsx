@@ -10,9 +10,9 @@ const handleExternalClick = (path: string) => {
 
 const Footer = () => {
   return (
-    <footer className="bg-[#362E59] text-white">
+    <footer className="lg:bg-[#362E59] bg-[#131E50] text-white">
       <div
-        className="md:flex md:justify-between md:items-center px-12 bg-[#362E59] py-5 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-2
+        className="md:flex md:justify-between md:items-center px-12 lg:bg-[#362E59] bg-[#131E50] py-5 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-2
     text-center text-lg"
       >
         <span className="text-[#FDFAFA] ">
