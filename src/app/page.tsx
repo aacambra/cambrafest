@@ -18,7 +18,7 @@ export default function Home() {
   const handleBOLClick = () => {
     const link = document.createElement("a");
     link.target = "_blank";
-    link.href = "https://cambrafest.bol.pt/";
+    link.href = "https://musicasemcapa.bol.pt/Comprar/Pesquisa?q=cambrafest";
     link.click();
   };
 
