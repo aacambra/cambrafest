@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: 'https://musicasemcapa.bol.pt/Comprar/Pesquisa?q=cambrafest',
+      url: 'https://cambrafest.pt/bilhetes',
       lastModified: new Date(),
     },
     {
@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: 'https://linktr.ee/cambrafest',
+      url: 'https://cambrafest.pt/info',
       lastModified: new Date(),
     },
     {

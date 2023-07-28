@@ -52,7 +52,7 @@ const Navbar = () => {
               </li>
               <li className="pb-6 text-xl text-[#039B7D] font-bold py-2 px-6 text-center  border-b-2 md:border-b-0 hover:text-[1.5rem]  hover:bg-[#EF8F1E]  border-[#EF8F1E]   md:hover:text-[#EF8F1E] md:hover:bg-transparent">
                 <a
-                  href="https://musicasemcapa.bol.pt/Comprar/Pesquisa?q=cambrafest"
+                  href="/bilhetes"
                   target="_blank"
                   onClick={() => setNavbar(!navbar)}
                 >
@@ -66,7 +66,7 @@ const Navbar = () => {
               </li>
               <li className="pb-6 text-xl text-[#FDFAFA] py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:text-[1.5rem]  hover:bg-[#EF8F1E]  border-[#EF8F1E]   md:hover:text-[#EF8F1E] md:hover:bg-transparent">
                 <a
-                  href="https://linktr.ee/cambrafest"
+                  href="/info"
                   target="_blank"
                   onClick={() => setNavbar(!navbar)}
                 >
