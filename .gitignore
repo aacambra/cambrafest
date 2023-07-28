@@ -19,6 +19,20 @@
 .DS_Store
 *.pem
 
+## vim swp files
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+## Other IDEs
+.idea/*
+**/.idea/*
+*.iml
+*.sublime-workspace
+*.sublime-project
+
 # debug
 npm-debug.log*
 yarn-debug.log*
@@ -33,3 +47,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# node modules
+**/node_modules
