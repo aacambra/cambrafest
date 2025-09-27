@@ -51,13 +51,13 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="pb-6 text-xl text-[#FDFAFA] py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:text-[1.5rem]  hover:bg-[#EF8F1E]  border-[#EF8F1E]   md:hover:text-[#EF8F1E] md:hover:bg-transparent">
-                <a
+                <Link
                   href="/info"
                   target="_blank"
                   onClick={() => setNavbar(!navbar)}
                 >
                   Mais Informações
-                </a>
+                </Link>
               </li>
               <li className="pb-6 text-xl text-[#FDFAFA] py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:text-[1.5rem]  hover:bg-[#EF8F1E]  border-[#EF8F1E]   md:hover:text-[#EF8F1E]  md:hover:bg-transparent">
                 <button onClick={handleTCclick}>Termos & Condições</button>
