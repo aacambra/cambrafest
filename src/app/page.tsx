@@ -2,11 +2,8 @@
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { use, useEffect } from "react";
+import { useEffect } from "react";
 import Image from "next/image";
-
-const repoName = "cambrafest";
-const assetPrefix = process.env.NODE_ENV === "production" ? `/${repoName}` : "";
 
 export default function Home() {
   useEffect(() => {
@@ -21,7 +18,7 @@ export default function Home() {
       <Navbar />
       <div id="cambrafest">
         <Image
-          src={`${assetPrefix}/board_2.jpeg`}
+          src={`/board_2.jpeg`}
           alt="Cambrafest Background"
           width={500}
           height={750}
