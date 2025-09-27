@@ -1,11 +1,12 @@
 "use client";
 
-import styles from "./page.module.css";
-import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { useEffect } from "react";
-import Head from "next/head";
+import { use, useEffect } from "react";
+import Image from "next/image";
+
+const repoName = "cambrafest";
+const assetPrefix = process.env.NODE_ENV === "production" ? `/${repoName}` : "";
 
 export default function Home() {
   useEffect(() => {
@@ -15,24 +16,19 @@ export default function Home() {
     }
   }, []);
 
-  const handleBOLClick = () => {
-    const link = document.createElement("a");
-    link.target = "_blank";
-    link.href = "/bilhetes";
-    link.click();
-  };
-
   return (
-    <>
-      <Head>
-        <title>Cambrafest - Are You Ready?</title>
-      </Head>
-      <div className={styles.container}>
-        <Navbar />
-        <main id="cambrafest" className={` ${styles.blur}`} />
-        <div onClick={handleBOLClick} className={styles.bolDiv} />
-        <Footer />
+    <div className="flex flex-col items-center">
+      <Navbar />
+      <div id="cambrafest">
+        <Image
+          src={`${assetPrefix}/board_2.jpeg`}
+          alt="Cambrafest Background"
+          width={500}
+          height={750}
+          priority
+        />
       </div>
-    </>
+      <Footer />
+    </div>
   );
 }

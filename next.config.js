@@ -1,20 +1,15 @@
+const isProd = process.env.NODE_ENV === "production";
+const repoName = "cambrafest";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactRefresh: true,
-  async redirects() {
-    return [
-      {
-        source: '/bilhetes',
-        destination: 'https://musicasemcapa.bol.pt/Comprar/Pesquisa?q=cambrafest',
-        permanent: false,
-      },
-      {
-        source: '/info',
-        destination: 'https://linktr.ee/cambrafest',
-        permanent: false,
-      },
-    ]
+  output: "export",
+  images: {
+    unoptimized: true,
   },
-}
+  basePath: isProd ? `/${repoName}` : "",
+  assetPrefix: isProd ? `/${repoName}/` : "",
+  reactStrictMode: true,
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

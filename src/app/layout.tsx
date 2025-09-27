@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Cambrafest - Are You Ready?",
   description:
